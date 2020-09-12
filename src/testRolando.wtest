@@ -1,0 +1,15 @@
+import rolando.*
+
+describe "rolando" {
+
+}
+
+describe "espectroMalefico"{
+	test "su poder depende de su nombre"{
+		
+		//accion conseguir poder del espectro
+		const poder = espectroMalefico.poder()
+		// postcondiciones: asegurarse que el poder es 17
+		assert.equals(17, poder)
+	}
+}
